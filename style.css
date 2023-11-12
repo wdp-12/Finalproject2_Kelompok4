@@ -11,7 +11,9 @@
   font-family: 'Nunito', sans-serif;
 }
 
-.section-container {
+/* Transform */
+
+.transform-section-container {
   position: relative;
   width: 1240px;
   height: 575px;
@@ -33,6 +35,16 @@
   left: 108px;
   top: 271px;
   padding: 20px;
+}
+
+.attachment-icon {
+  background-color: var(--white-blue);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* file */
@@ -64,6 +76,16 @@
   padding: 20px;
 }
 
+.circle-spencer {
+  background-color: var(--white-blue);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .circle-info-spencer {
   position: absolute;
   background-color: var(--dark-blue);
@@ -76,6 +98,13 @@
   top: 21px;
   left: 65px;
   border: 2px solid #ffffff;
+}
+
+.info-spencer {
+  color: #ffffff;
+  font-size: 6px;
+  font-weight: 700px;
+  margin: 0;
 }
 
 .time-spencer {
@@ -97,20 +126,72 @@
   padding: 20px;
 }
 
+.sales-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--dark-blue);
+}
+
+.text-info-sales {
+  color: var(--dark-blue);
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.kr-sales {
+  background-color: var(--white-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
+}
+
 .mj-sales {
   position: absolute;
+  background-color: var(--white-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
   top: 101px;
   left: 51px;
 }
 
 .oi-sales {
   position: absolute;
+  background-color: var(--white-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
   top: 101px;
   left: 81px;
 }
 
 .plus-sales {
   position: absolute;
+  background-color: var(--white-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
   top: 101px;
   left: 111px;
 }
@@ -126,6 +207,22 @@
   left: 784px;
   top: 156px;
   padding: 20px;
+}
+
+.title-uploading {
+  color: var(--dark-blue);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Basic', sans-serif;
+}
+
+.subtitle-uploading {
+  color: var(--dark-blue);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Basic', sans-serif;
 }
 
 /* message */
@@ -155,6 +252,16 @@
   left: 483px;
   top: 341px;
   padding: 20px;
+}
+
+.circle-amy {
+  background-color: var(--white-blue);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-info-amy {
@@ -193,3 +300,5 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Increase */
