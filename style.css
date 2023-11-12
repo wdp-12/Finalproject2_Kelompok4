@@ -17,6 +17,7 @@ body {
 }
 
 .section-container {
+  position: relative;
   width: 1240px;
   height: 575px;
   flex-shrink: 0;
@@ -24,10 +25,65 @@ body {
   border-radius: 60px;
 }
 
+/* message */
+
 .message-content {
+  position: absolute;
   width: 350px;
   height: 100px;
-  flex-shrink: 0;
   background-color: #ffffff;
   border-radius: 25px;
+  left: 108px;
+  top: 271px;
+  padding: 20px;
+}
+
+/* file */
+
+.file-content {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 483px;
+  top: 56px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* spencer */
+
+.spencer-content {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 584px;
+  top: 31px;
+  padding: 20px;
+}
+
+.circle-info-spencer {
+  position: absolute;
+  background-color: var(--dark-blue);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 21px;
+  left: 65px;
+  stroke-width: 2px;
+  border: 2px solid #ffffff;
+}
+
+.time-spencer {
+  position: absolute;
+  top: 29px;
+  left: 293px;
 }
