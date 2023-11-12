@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Nunito:wght@400;700&display=swap');
 
 :root {
   --dark-blue: #234cad;
   --white-blue: #f2f6ff;
-}
-
-html,
-body {
-  padding: 0 50px;
 }
 
 * {
@@ -23,11 +18,13 @@ body {
   flex-shrink: 0;
   background-color: var(--white-blue);
   border-radius: 60px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
-/* message */
+/* attachment */
 
-.message-content {
+.attachment-content {
   position: absolute;
   width: 350px;
   height: 100px;
@@ -78,7 +75,6 @@ body {
   align-items: center;
   top: 21px;
   left: 65px;
-  stroke-width: 2px;
   border: 2px solid #ffffff;
 }
 
@@ -86,4 +82,114 @@ body {
   position: absolute;
   top: 29px;
   left: 293px;
+}
+
+/* sales */
+
+.sales-content {
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 483px;
+  top: 156px;
+  padding: 20px;
+}
+
+.mj-sales {
+  position: absolute;
+  top: 101px;
+  left: 51px;
+}
+
+.oi-sales {
+  position: absolute;
+  top: 101px;
+  left: 81px;
+}
+
+.plus-sales {
+  position: absolute;
+  top: 101px;
+  left: 111px;
+}
+
+/* uploading */
+
+.uploading-content {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 784px;
+  top: 156px;
+  padding: 20px;
+}
+
+/* message */
+
+.message-content {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 383px;
+  top: 396px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* amy */
+
+.amy-content {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 483px;
+  top: 341px;
+  padding: 20px;
+}
+
+.circle-info-amy {
+  position: absolute;
+  background-color: var(--dark-blue);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 21px;
+  left: 65px;
+  border: 2px solid #ffffff;
+}
+
+.time-amy {
+  position: absolute;
+  top: 29px;
+  left: 293px;
+}
+
+/* progress */
+
+.progress-content {
+  position: absolute;
+  width: 130px;
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 483px;
+  top: 466px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
