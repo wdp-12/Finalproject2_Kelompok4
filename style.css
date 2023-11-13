@@ -14,11 +14,7 @@
 .card {
     width: 350px;
 }
-#white{
-    border-color: var(--dark-blue);
-    border-radius: 50px;
-    border-width: 1px;
-}
+
 .card-body {
     border-radius: 50px;
     background: var(--white-blue);
@@ -34,5 +30,18 @@
 .card-body h1{
     color: var(--dark-blue);
     font-size: 56px;
+    font-weight: 700;
+}
+
+.card-body .btn {
+    background-color: white;
+    border-radius: 37.5px;
+    width: 274px;
+    height: 75px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    text-align: center;
+    color: var(--dark-blue);
+    font-size: 25px;
     font-weight: 700;
 }
