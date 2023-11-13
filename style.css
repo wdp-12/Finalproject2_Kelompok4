@@ -21,7 +21,7 @@
   background-color: var(--white-blue);
   border-radius: 60px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 /* attachment */
@@ -143,47 +143,10 @@
   margin: 0;
 }
 
-.kr-sales {
-  background-color: var(--white-blue);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #ffffff;
-}
-
-.mj-sales {
-  position: absolute;
-  background-color: var(--white-blue);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #ffffff;
-  top: 101px;
-  left: 51px;
-}
-
-.oi-sales {
-  position: absolute;
-  background-color: var(--white-blue);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #ffffff;
-  top: 101px;
-  left: 81px;
-}
-
+.kr-sales,
+.mj-sales,
+.oi-sales,
 .plus-sales {
-  position: absolute;
   background-color: var(--white-blue);
   width: 40px;
   height: 40px;
@@ -192,8 +155,12 @@
   justify-content: center;
   align-items: center;
   border: 2px solid #ffffff;
-  top: 101px;
-  left: 111px;
+}
+
+.mj-sales,
+.oi-sales,
+.plus-sales {
+  margin-left: -10px;
 }
 
 /* uploading */
@@ -302,3 +269,88 @@
 }
 
 /* Increase */
+
+.increase-container {
+  position: relative;
+  flex-shrink: 0;
+  background-color: var(--white-blue);
+  width: 575px;
+  height: 575px;
+  border-radius: 60px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+
+.increase-button {
+  width: 200px;
+  height: 65px;
+  background-color: Transparent;
+  border: 2px solid var(--dark-blue);
+  border-radius: 32.5px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.increase-content {
+  position: absolute;
+  top: 101px;
+  left: 101px;
+}
+
+/* daily */
+
+.daily-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daily-content {
+  width: 276px;
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.daily-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--dark-blue);
+}
+
+.ku-daily,
+.mg-daily,
+.ai-daily,
+.plus-daily {
+  background-color: var(--white-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
+  position: relative;
+}
+
+.ku-daily {
+  margin-right: -10px;
+  z-index: 3;
+}
+
+.mg-daily {
+  margin-right: -10px;
+  z-index: 2;
+}
+
+.ai-daily {
+  margin-right: -10px;
+  z-index: 1;
+}
