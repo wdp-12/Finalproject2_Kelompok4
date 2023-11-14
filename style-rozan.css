@@ -2,9 +2,9 @@
 
 * {
   color: #234cad;
+  font-family: "Nunito", sans-serif;
 }
 body {
-  font-family: "Nunito", sans-serif;
   color: #234cad;
 }
 
@@ -23,6 +23,10 @@ body {
 }
 
 /* Section 1 awal */
+.row .content {
+  padding: 0 50px 0 100px;
+}
+
 .text-color {
   color: #234cad;
 }
