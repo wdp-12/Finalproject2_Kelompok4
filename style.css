@@ -99,3 +99,38 @@
     align-items: center;
     justify-content: center;
 }
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.footer-container .col{
+    padding: 30px;
+    margin: 10px;
+}
+
+.footer-container h3{
+    color: var(--dark-blue);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-container ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    list-style-position:outside;
+}
+
+.footer-container a{
+    color: var(--dark-blue);
+    padding-bottom: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+}
