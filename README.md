@@ -14,7 +14,7 @@ Dalam project ini menstyling sebuah desain landing page yang sudah disiapkan ke 
 ## Anggota & Jobdesk
 
 Rozan Naufal Latukau
-![Jobdesl Rozan](Assets/Jobdesk-1.jpeg)
+![Jobdesk Rozan](Assets/Jobdesk-1.jpeg)
 
 Ivan Wijdan
 ![Jobdesk Ivan](Assets/Jobdesk-2.jpeg)
