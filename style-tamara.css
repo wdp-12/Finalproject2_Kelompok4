@@ -11,6 +11,9 @@
   font-family: 'Nunito', sans-serif;
 }
 
+/* Tamara */
+
+/* Pricing */
 .price-section .price-title{
     color: var(--dark-blue); 
     font-size: 48px; 
@@ -86,6 +89,7 @@
     height: 360px;
 }
 
+/* Contact */
 .newsletter-container{
     margin-top: 150px;
     width: 1120px;
@@ -148,6 +152,7 @@
     color: var(--dark-blue);
 }
 
+/* Footer */
 .footer-container{
     display: flex;
     justify-content: center;
