@@ -13,15 +13,15 @@ Dalam project ini menstyling sebuah desain landing page yang sudah disiapkan ke 
 
 ## Anggota & Jobdesk
 
-Rozan Naufal Latukau
+- Rozan Naufal Latukau
 
 ![Jobdesk Rozan](Assets/Jobdesk-1.jpeg)
 
-Ivan Wijdan
+- Ivan Wijdan
 
 ![Jobdesk Ivan](Assets/Jobdesk-2.jpeg)
 
-Tamara Utami
+- Tamara Utami
 
 ![Jobdesk Tamara](Assets/Jobdesk-3.jpeg)
 
