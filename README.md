@@ -10,9 +10,9 @@ Dalam project ini menstyling sebuah desain landing page yang sudah disiapkan ke 
 - Framework Bootstrap
 
 ## Anggota & Jobdesk
+- Rozan Naufal Latukau
 - Ivan Wijdan 
 - Tamara Utami
-- Rozan Naufal Latukau
 
 ## Link
 
