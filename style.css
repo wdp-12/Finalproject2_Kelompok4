@@ -11,29 +11,52 @@
   font-family: 'Nunito', sans-serif;
 }
 
-.card {
-    width: 350px;
+.price-section .price-title{
+    color: var(--dark-blue); 
+    font-size: 48px; 
+    font-weight: 700; 
+    margin-bottom: 20px;
 }
 
-.card-body {
+.price-section .price-subtitle{
+    color: var(--dark-blue); 
+    font-size: 16px; 
+    font-weight: 400;
+    margin-bottom: 60px;
+    animation: fadeIn 3s;
+}
+
+.price-container{
+    margin-top: 100px;
+}
+.price-container .price-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+}
+
+.price-box {
     border-radius: 50px;
     background: var(--white-blue);
 }
 
-.card-body h5{
+.price-box h5{
     color: var(--dark-blue);
     padding: 10px;
     font-size: 25px;
     font-weight: 400;
 }
 
-.card-body h1{
+.price-box h1{
     color: var(--dark-blue);
     font-size: 56px;
     font-weight: 700;
 }
 
-.card-body .btn {
+.price-box .btn {
     background-color: white;
     border-radius: 37.5px;
     width: 274px;
@@ -46,6 +69,23 @@
     font-weight: 700;
 }
 
+.price-box .btn:hover {
+    background-color: white;
+    border-color: var(--dark-blue); 
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.price-container .price-box:hover {
+    background-color: white;
+    cursor: pointer;
+    border-color: var(--dark-blue); 
+    border-radius: 50px;
+    outline: 2px solid #234cad;
+    width: 360px;
+    height: 360px;
+}
+
 .newsletter-container{
     margin-top: 150px;
     width: 1120px;
@@ -56,6 +96,7 @@
 }
 
 .wrap-input{
+    animation: fadeIn 3s;
     width: 400px;
     margin: 30px auto;
 }
@@ -98,6 +139,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.wrap-input .input-box .btn:hover {
+    border-color: var(--dark-blue);
+    border-width: 2px;
+    background-color: white;
+    color: var(--dark-blue);
 }
 
 .footer-container{
