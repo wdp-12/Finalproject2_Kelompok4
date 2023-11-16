@@ -23,6 +23,9 @@ body {
 }
 
 /* Section 1 awal */
+.section-1 {
+  margin: 90px 0 0 0;
+}
 .row .content {
   padding: 0 50px 0 100px;
 }
@@ -371,11 +374,17 @@ body {
   border-radius: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .item-text {
   padding: 100px;
+}
+.box-item .box-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Box 9 */
@@ -475,7 +484,7 @@ body {
 }
 .box-10 .ms-4 .d-md-flex .text-p {
   font-size: 10px;
-  margin-left: 110px;
+  margin-left: 105px;
 }
 .box-10 .ms-4 .d-md-flex .font-text {
   font-size: 16px;
