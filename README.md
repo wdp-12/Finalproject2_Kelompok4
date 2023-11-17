@@ -25,4 +25,6 @@ Dalam project ini menstyling sebuah desain landing page yang sudah disiapkan ke 
 
 ![Jobdesk Tamara](Assets/Jobdesk-3.jpeg)
 
-## Link
+## Link Demo
+
+https://finalproject2kelompok4.netlify.app/
